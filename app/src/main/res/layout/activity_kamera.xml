@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".KameraActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/search"
+        app:iconifiedByDefault="false"
+        app:searchHintIcon="@null"
+        app:queryHint="Cari . . . . ."
+        android:focusable="true"
+        app:closeIcon="@drawable/silang_hasil1"
+        app:searchIcon="@drawable/search_hasil1"
+        android:background="@drawable/bordercadangan1"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclearView99999"
+        android:scrollbars="vertical"
+        android:layout_below="@id/search"
+        android:layout_marginTop="12dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:backgroundTint="@color/keempat"
+        android:src="@drawable/tomboladd"
+        app:tint = "@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="40dp"/>
+
+    <!-- Sebelumnya kode XML yang ada -->
+
+    <TextView
+        android:id="@+id/responseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclearView99999"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Kode XML lainnya -->
+
+
+</RelativeLayout>

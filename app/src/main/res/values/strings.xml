@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DermaCare</string>
+    <!-- String untuk nama penyakit placeholder -->
+    <string name="nama_penyakit_placeholder">Nama Penyakit</string>
+
+    <!-- String untuk deskripsi penyakit placeholder -->
+    <string name="deskripsi_penyakit_placeholder">Deskripsi Penyakit</string>
+
+    <!-- String lainnya -->
+</resources>
